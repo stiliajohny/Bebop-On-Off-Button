@@ -24,7 +24,7 @@ This is a list of scripts that you can activate by using the on/off button of yo
  8.  Use and FTP client and uploads the files to the **/data/ftp/internal_000/** directory
  9.  Copy the **.sh** files to the /bin/onoffbutton directory
  10. Change the attributes of the files to 755 (chmod 755 /bin/onoffbutton/*.sh )
- 11.  Excecute sync; reboot from terminal
+ 11.  Execute sync; reboot from terminal
 
 
 
