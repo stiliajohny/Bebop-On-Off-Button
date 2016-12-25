@@ -6,7 +6,7 @@ This is a list of scripts that you can activate by using the on/off button of yo
 
 
 
-## Disclamer
+## Disclaimer
 
 **These scripts are tested with my own Parrot Bebop 1 ( FW 3.3.0).**
 **It is not guaranty that it will work with your Parrot Bebop, therefore it might end up been bricked.**
@@ -17,7 +17,7 @@ This is a list of scripts that you can activate by using the on/off button of yo
  1. Download the master.zip file,
  2.  Press your Bebop's power button four (4) times
  3.  Use your PC/Mac/Linux to connect to the Bebop's Wifi network
- 4.  Connect with telnet to your Bebop's IP ( usualy is 192.168.42.1)
+ 4.  Connect with telnet to your Bebop's IP ( usually is 192.168.42.1)
  5.  Change the current working directory to /bin/onoffbutton
  6.  Change the Filesystem from R/O to R/W with this command **mount -o remount,rw /**
  7.  Extract the master.zip files
@@ -25,13 +25,13 @@ This is a list of scripts that you can activate by using the on/off button of yo
  9.  Copy the **.sh** files to the /bin/onoffbutton directory
  10. Change the attributes of the files to 755 (chmod 755 /bin/onoffbutton/*.sh )
  11.  Excecute sync; reboot from terminal
- 
- 
- 
- 
+
+
+
+
 ## Actions List
 
- 
+
 **longpress_0.sh (3s)**
 Switch Wifi Band 2.5GHz / 5GHz
 
@@ -58,10 +58,10 @@ Cold GPS start
 Custom camera settings ( V=140 C=1280x3072 s=1024x600 I=off )
 
 **shortpress_9.sh**
-First Person View ( no stabilisation )
+First Person View ( no stabilisations )
 
 **shortpress_10.sh**
-First Person View ( with stabilisation )
+First Person View ( with stabilisations )
 
 **shortpress_11.sh**
 
