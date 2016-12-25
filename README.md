@@ -14,17 +14,17 @@ This is a list of scripts that you can activate by using the on/off button of yo
 
 ## Installation
 
- - [ ] Download the master.zip file,
- - [ ] Press your Bebop's power button four (4) times
- - [ ] Use your PC/Mac/Linux to connect to the Bebop's Wifi network
- - [ ] Connect with telnet to your Bebop's IP ( usualy is 192.168.42.1)
- - [ ] Change the current working directory to /bin/onoffbutton
- - [ ] Change the Filesystem from R/O to R/W with this command **mount -o remount,rw /**
- - [ ] Extract the master.zip files
- - [ ] Use and FTP client and uploads the files to the **/data/ftp/internal_000/** directory
- - [ ] Copy the **.sh** files to the /bin/onoffbutton directory
- - [ ] Change the attributes of the files to 755 (chmod 755 /bin/onoffbutton/*.sh )
- - [ ] Excecute sync; reboot from terminal
+ 1. Download the master.zip file,
+ 2.  Press your Bebop's power button four (4) times
+ 3.  Use your PC/Mac/Linux to connect to the Bebop's Wifi network
+ 4.  Connect with telnet to your Bebop's IP ( usualy is 192.168.42.1)
+ 5.  Change the current working directory to /bin/onoffbutton
+ 6.  Change the Filesystem from R/O to R/W with this command **mount -o remount,rw /**
+ 7.  Extract the master.zip files
+ 8.  Use and FTP client and uploads the files to the **/data/ftp/internal_000/** directory
+ 9.  Copy the **.sh** files to the /bin/onoffbutton directory
+ 10. Change the attributes of the files to 755 (chmod 755 /bin/onoffbutton/*.sh )
+ 11.  Excecute sync; reboot from terminal
  
  
  
