@@ -34,7 +34,7 @@ This is a list of scripts that you can activate by using the on/off button of yo
 ## Actions List
 
 Script | Hold button|Function| Edit
--|-|-|-|
+-------|------------|--------|------
 longpress_0.sh|3s|Switch Wifi Band 2.5GHz / 5GHz |Yes
 shortpress_1.sh|0s|Turn Off the Drone| Yes
 shortpress_2.sh|0s|Empty Slot|Yes
