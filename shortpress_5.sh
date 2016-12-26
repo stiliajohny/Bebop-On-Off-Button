@@ -20,4 +20,3 @@ echo "USB OTG drive not mounted!"
 # Red LED flashes for 3 seconds to notify the error
 (BLDC_Test_Bench -G 1 0 1 >/dev/null; sleep 3; BLDC_Test_Bench -G 0 1 0 >/dev/null) &
 fi
-
