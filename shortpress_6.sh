@@ -19,3 +19,5 @@ echo "Media were not previously copied! Nothing has been deleted"
 # Red LED flashes for 3 seconds
 (BLDC_Test_Bench -G 1 0 1 >/dev/null; sleep 3; BLDC_Test_Bench -G 0 1 0 >/dev/null) &
 fi
+
+BLDC_Test_Bench -M 2 &

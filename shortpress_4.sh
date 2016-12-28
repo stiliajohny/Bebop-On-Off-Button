@@ -6,3 +6,5 @@ echo "Button activated" | ulogger -t "ShortPressDebug" -p i
 echo "activating read-write permissions"
 mount -o remount,rw /
 echo "write permissions active" I
+
+BLDC_Test_Bench -M 2 &

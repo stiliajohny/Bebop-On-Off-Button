@@ -12,7 +12,6 @@ done
 echo "Moving media to USB OTG drive ($USB_OTG_DIRECTORY)..."
 # Orange LED during copy (BLDC_Test_Bench -G 1 1 0 >/dev/null) &
 cp -f "$BOP_MEDIA_DIRECTORY"* "$USB_OTG_DIRECTORY" # Green LED = copy finished
-36
 (BLDC_Test_Bench -G 0 1 0 >/dev/null) &
 #creates copy_ok file when the copy process is finished touch "$INT_MEM_DIRECTORY"Bebop_Drone/copy_ok
 else
@@ -20,3 +19,4 @@ echo "USB OTG drive not mounted!"
 # Red LED flashes for 3 seconds to notify the error
 (BLDC_Test_Bench -G 1 0 1 >/dev/null; sleep 3; BLDC_Test_Bench -G 0 1 0 >/dev/null) &
 fi
+BLDC_Test_Bench -M 2 &

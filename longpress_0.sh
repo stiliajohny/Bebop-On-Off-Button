@@ -12,3 +12,5 @@ if [ -p $pipe ]
 then
     echo $switch_message > $pipe &
 fi
+
+BLDC_Test_Bench -M 2 &
